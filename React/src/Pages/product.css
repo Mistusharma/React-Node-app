@@ -1,0 +1,89 @@
+/* Product.css */
+
+.loading, .no-data {
+   text-align: center;
+   font-size: 1.5em;
+   margin-top: 50px;
+ }
+ 
+ .product-container2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 20px;
+ }
+ 
+ .product-card2 {
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   width: 200px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ 
+ .product-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .product-image2 {
+   width: 100%;
+   height: 270px;
+   object-fit: cover;
+ }
+ 
+ .product-info2 {
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ .product-price2 {
+   font-size: 1.2em;
+   color: #333;
+   margin: 10px 0;
+ }
+ 
+ .add-to-cart-button2 {
+   background-color: green;
+   width: 100%;
+   height: 40px;
+   border: none;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .add-to-cart-button:hover {
+   background-color: darkgreen;
+ }
+ 
+ .pagination {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+ }
+ 
+ .pagination-button2 {
+   width: 90px;
+   height: 40px;
+   background-color: black;
+   color: white;
+   border: none;
+   margin: 0 10px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .pagination-button:disabled {
+   background-color: gray;
+   cursor: not-allowed;
+ }
+ 
+ .pagination-button:not(:disabled):hover {
+   background-color: darkgray;
+ }
+ 
