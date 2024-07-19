@@ -25,7 +25,7 @@ app.use("/product", product)
 app.use("/user",userCreate)
 mongoose.connect(`${process.env.dbURL}`)
     .then(() => {
-        console.log("Successfully connected to the database to ", process.env.dbURL);
+        console.log("Successfully connected ", process.env.dbURL);
     })
     .catch((err) => {
         console.log("Could not connect to the database", err);
